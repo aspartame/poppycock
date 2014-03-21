@@ -1,3 +1,18 @@
+/*
+ *	ipsums.js
+ *	https://github.com/aspartame/ipsums
+ *
+ *	Copyright 2014 Linus Karnland
+ *	MIT License
+ *	
+ *	
+ *	To add a flavor:
+ *		- Append name/index to _options.flavor
+ *		- Append name to _options.flavors
+ *		- Append words/sentences to _data.words and _data.sentences
+ *	
+ */
+
 ;
 
 /*! Sizzle v1.10.16-pre | (c) 2013 jQuery Foundation, Inc. | jquery.org/license */
@@ -7,16 +22,17 @@
 	var _options = {
 		flavor: {
 			lorem: 0,
-			batman: 1
+			batman: 1,
+			/* new_flavor: 2 */
 		},
 		
 		style: {
 			paragraph: 0,
 			sentence: 1,
-			word: 2
+			word: 2,
 		},
 		
-		flavors: ['lorem', 'batman']
+		flavors: ['lorem', 'batman' /* , new_flavor */ ]
 	};
 	
 	var _data = {	
@@ -43,7 +59,13 @@
 			'He\'s a silent guardian, a watchful protector.', 
 			'The night is darkest just before the dawn.', 
 			'Some men just want to watch the world burn.', 
-			'When Gotham is ashes, you have my permission to die.']
+			'When Gotham is ashes, you have my permission to die.'],
+			
+			/* new_flavor
+				[
+					...
+				],
+			 */
 		],
 		
 		sentences: [ /* Mixed sentences of varying length */
@@ -104,7 +126,13 @@
 			'We could use some hotter heads around here.',
 			'When I spotted you, I was looking for a friend of mine, Bruce Wayne.',
 			'Nothing like a little air superiority, isn\'t it?',
-			]
+			],
+			
+			/* new_flavor
+				[
+					...
+				],
+			 */
 		]
 	};
 	
