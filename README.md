@@ -30,4 +30,9 @@ You can add placeholder text as individual words (`w`, `word` or `words`), sente
 
 If no options are specified the default is one paragraph of Lorem Ipsum text.
 
+API
+---
 
+A global `ipsums` object is added to `window` which you can use to programmatically generate ipsums:
+
+`ipsums.gimmie({ flavor: batman, style: 'sentence', count: 2 });`
