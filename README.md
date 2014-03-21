@@ -12,19 +12,22 @@ Quick start
 -----------
 
 1. Link to ipsums.js: `<script src="/src/ipsums.js" type="text/javascript"></script>`
-2. Add the class `ipsum` to an element to fill it with placeholder text: `<span class="ipsum"></span>`
+2. Add the data-attribute `data-ipsum` with options you want to an element to fill it with placeholder text: `<span data-ipsum="1 paragraph"></span>`
 
 Flavors
 -------
 
-There are two text flavors available, standard Lorem Ipsum and Batman quotes. Lorem Ipsum will be used if nothing else is specified. To use Batman quotes instead, append the `ipsum` class with `-batman`: `<span class="ipsum-batman"></span>`.
+There are two text flavors available, lorem (standard Lorem Ipsum) and batman (Batman quotes). lorem will be used if nothing else is specified. To use batman instead, add `batman` as an option: `<span data-ipsum="2 paragraphs batman"></span>`.
 
 Options
 -------
 
-You can add placeholder text as individual words, sentences or paragraphs. Append the `ipsum` class with a dash followed by `w` for words, `s` for sentences or `p` for paragraphs and the number of words/sentences/paragraphs you want.
+You can add placeholder text as individual words (`w`, `word` or `words`), sentences (`s`, `sentence` or `sentences`) or paragraphs (`p`, `paragraph` or `paragraphs`). Add any number to specify the number of words/sentences/paragraphs. The order of options is not important.
 
-* `<span class="ipsum-w5"></span>` produces 5 words of Lorem Ipsum text
-* `<span class="ipsum-batman-s10"></span>` produces 10 sentences of Batman quotes
-* `<span class="ipsum-p3"></span>` produces 3 paragraphs of Lorem Ipsum text (5-10 sentences per paragraph), each wrapped in `<p></p>`. 
+* `<span data-ipsum="5 words"></span>` produces 5 words of Lorem Ipsum text
+* `<span data-ipsum="batman 10 s"></span>` produces 10 sentences of Batman quotes
+* `<span data-ipsum="paragraph 3"></span>` produces 3 paragraphs of Lorem Ipsum text (5-10 sentences per paragraph), each wrapped in `<p></p>`. 
+
+If no options are specified the default is one paragraph of Lorem Ipsum text.
+
 
