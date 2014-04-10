@@ -25,7 +25,7 @@
 			word: ['w', 'word', 'words'],
 		},
 		
-		flavors: ['lorem', 'batman' /* , new_flavor */ ],
+		flavors: ['lorem', 'batman', 'simpsons' /* , new_flavor */ ],
 	};
 	
 	var _data = {	
@@ -56,6 +56,20 @@
 				'The night is darkest just before the dawn.', 
 				'Some men just want to watch the world burn.', 
 				'When Gotham is ashes, you have my permission to die.'
+			],
+			
+			/* The Simpsons */
+			'simpsons': [
+				'D\'oh!', 
+				'The Simpsons.', 
+				'Eat my shorts!', 
+				'Thank you come again!',
+				'Me fail English? That\'s unpossible.',
+				'But my mom says I\'m cool.',
+				'My cat\'s breath smells like cat food.',
+				'Oh boy, sleep! That\'s where I\'m a viking!',
+				'If you need me, I\'ll be in the refrigerator.',
+				'If something\'s hard to do, then it\'s not worth doing.'
 			],
 			
 			/* new_flavor: [
@@ -126,6 +140,45 @@
 				'When I spotted you, I was looking for a friend of mine, Bruce Wayne.',
 				'Nothing like a little air superiority, isn\'t it?',
 			],
+			
+			/* The simpsons */
+			'simpsons': [
+				'To alcohol! The cause of, and solution to, all of life\'s problems.',
+				'I was saying Boo-urns.',
+				'Everything\'s coming up Milhouse!',
+				'You don\'t win friends with salad.',
+				'I\'ve been called ugly, pug ugly, fugly, pug fugly, but never ugly ugly.',
+				'Oh, dear God. Can\'t this town go one day without a riot?',
+				'Uh, no you\'ve got the wrong number. This is 9-1... 2.',
+				'Stupider like a fox!',
+				'Ahh, there\'s nothing better than a cigarette... unless it\'s a cigarette lit with a hundred-dollar bill.',
+				'Now make like my pants, and split.',
+				'My bones are so brittle. But I always drink plenty of...malk?',
+				'Skinner said the teachers will crack any minute purple monkey dishwasher.',
+				'Oh, loneliness and cheeseburgers are a dangerous mix.',
+				'Inside every hardened criminal beats the heart of a ten-year-old boy.',
+				'Stupid sexy Flanders!',
+				'Shoplifting is a victimless crime. Like punching someone in the dark.',
+				'Ya used me, Skinner! YA USED ME!',
+				'Miss Simpson, do you find something funny about the word "tromboner"?',
+				'Priceless like a mother\'s love, or the good kind of priceless?',
+				'My eyes! The goggles do nothing!',
+				'Ah, alcohol and night-swimming. It\'s a winning combination.',
+				'Inflammable means flammable? What a country!',
+				'I don\'t get mad, I get stabby.',
+				'Oh boy, dinnertime. The perfect break between work and drunk!',
+				'Save me, Jebus!',
+				'I wash myself with a rag on a stick.',
+				'Ow, my eye! I\'m not supposed to get pudding in it.',
+				'But look! I got some cool pogs: Alf pogs! Remember Alf? He\'s back...in pog form!',
+				'It tastes like...burning.',
+				'There\'s only one thing to do at a moment like this: strut!',
+				'Sorry mom, the mob has spoken.',
+				'My son\'s name is also Bort.',
+				'There\'s an angry mob here to see you, sir.',
+				'Worst… episode… ever.',
+				'Up and at them!'
+			]
 			
 			/* new_flavor: [
 			   		...

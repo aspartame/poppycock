@@ -5,10 +5,11 @@ poppycock.js
 --------------
 
 
-A Lorem Ipsum text generator with flavors. Generate poppycockish bullcrap quotes from any of the following flavors:
+A Lorem Ipsum text generator with flavors. Generate poppycockish quotes from any of the following flavors:
 
 * Lorem Ipsum
 * Batman
+* The Simpsons
 
 Supported browsers
 ------------------
@@ -24,7 +25,15 @@ Quick start
 Flavors
 -------
 
-There are two text flavors available, lorem (standard Lorem Ipsum) and batman (Batman quotes). lorem will be used if nothing else is specified. To use batman instead, add `batman` as an option: `<span data-poppycock="2 paragraphs batman"></span>`.
+To use a certain flavor you add the appropriate keyword to the `data-poppycock` attribute. 
+
+`<span data-poppycock="2 paragraphs batman"></span>`
+
+Standard Lorem Ipsum (lorem) will be used if nothing else is specified. The following keywords are available:
+
+* lorem
+* batman
+* simpsons
 
 Options
 -------
