@@ -1,6 +1,6 @@
 /*
- *	ipsums.js
- *	https://github.com/aspartame/ipsums
+ *	poppycock.js
+ *	https://github.com/aspartame/poppycock
  *
  *	Copyright 2014 Linus Karnland
  *	MIT License
@@ -9,7 +9,7 @@
  *	To add a flavor:
  *		- Append name to _options.flavors
  *		- Append words/sentences to _data.words and _data.sentences
- *	
+ *
  */
 
 ;
@@ -218,10 +218,10 @@
 	};
 	
 	function applyIpsums() {
-		var ipsums = Sizzle('[data-ipsum]');
+		var ipsums = Sizzle('[data-poppycock]');
 		
 		for (var i = ipsums.length - 1; i >= 0; --i) {
-			var options = extractOptions(ipsums[i].getAttribute('data-ipsum'));
+			var options = extractOptions(ipsums[i].getAttribute('data-poppycock'));
 			
 			if (options) {
 				ipsums[i].innerHTML = new Ipsum(options).text();					
@@ -284,8 +284,8 @@
 	document.addEventListener('DOMContentLoaded', applyIpsums);
 	
 	/* Expose API */
-	root.ipsums = root.ipsums || {};
-	root.ipsums.gimmie = function (options) { return new Ipsum(options).text() }
+	root.poppycock = root.poppycock || {};
+	root.poppycock.gimmie = function (options) { return new Ipsum(options).text() }
 	
 })(window);
 
