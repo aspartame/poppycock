@@ -42,7 +42,7 @@ You can add placeholder text as individual words (`w`, `word` or `words`), sente
 
 * `<span data-poppycock="5 words"></span>` produces 5 words of Lorem Ipsum text
 * `<span data-poppycock="batman 10 s"></span>` produces 10 sentences of Batman quotes
-* `<span data-poppycock="paragraph 3"></span>` produces 3 paragraphs of Lorem Ipsum text (5-10 sentences per paragraph), each wrapped in `<p></p>`. 
+* `<span data-poppycock="3 paragraphs simpsons"></span>` produces 3 paragraphs of The Simpsons quotes (5-10 sentences per paragraph), each wrapped in `<p></p>`. 
 
 If no options are specified the default is one paragraph of Lorem Ipsum text.
 
