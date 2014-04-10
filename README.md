@@ -52,3 +52,10 @@ API
 A global `poppycock` object is added to `window` which you can use to programmatically generate text:
 
 `poppycock.gimmie({ flavor: batman, style: 'sentence', count: 2 });`
+
+License
+-------
+
+Copyright (c) 2014 Linus Karnland
+
+[The MIT License (MIT)](http://opensource.org/licenses/MIT "The MIT License (MIT)")
